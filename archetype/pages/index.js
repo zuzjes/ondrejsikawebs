@@ -1,5 +1,4 @@
-import "../css/index.css"
-import "bootstrap-css-only/css/bootstrap.min.css"
+import '../css'
 
 const Index = () => (
   <h1>Ondrej Sika Webs / Archetype</h1>
