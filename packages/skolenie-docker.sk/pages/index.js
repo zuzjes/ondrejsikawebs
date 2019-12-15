@@ -1,3 +1,9 @@
+// import Page from "@app/course-landing/components/Page";
+
+// const Index = props => <Page site={props.site} />;
+
+// export default Index;
+
 import Header from "@app/course-landing/components/Header";
 import HeaderLink from "@app/course-landing/components/HeaderLink";
 import TextFrame from "@app/course-landing/components/TextFrame";

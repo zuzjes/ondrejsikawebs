@@ -3,14 +3,17 @@
     cs: Školení Dockeru
     en: Docker Training
     de: Docker Schulung
+    sk: Školenie Docker
   lecturers:
     - ondrejsika
     - martinstudna
   price:
     open:
       cz: 11 999 CZK
+      sk: XX EUR
     in_house:
       cz: 50 000 CZK
+      sk: XX EUR
   twitter_recommendations:
     cs: ["jan-novotny-docker", "tomas-ligenza-docker", "lubos-klokner-docker"]
   recommendations:
