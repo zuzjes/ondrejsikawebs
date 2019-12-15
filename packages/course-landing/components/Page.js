@@ -141,12 +141,20 @@ const Page = props => {
                       {price_open}
                     </div>
                     <ButtonOutline btnUrl={site.x_inquiry_url}>
-                      <Translate lang={lang} cs="Nezávazne poptat" sk="Nezáväzne popýtať"/>
+                      <Translate
+                        lang={lang}
+                        cs="Nezávazne poptat"
+                        sk="Nezáväzne popýtať"
+                      />
                     </ButtonOutline>
                   </div>
                   <div className="col-6">
                     <h5>
-                      <Translate lang={lang} cs="Firemní školení" sk="Firemné školenia"/>
+                      <Translate
+                        lang={lang}
+                        cs="Firemní školení"
+                        sk="Firemné školenia"
+                      />
                     </h5>
                     <div className="mb-2" style={{ fontSize: "1.3em" }}>
                       {price_in_house}
@@ -221,13 +229,17 @@ const Page = props => {
               {props.NumberOfCompanies}15+
             </h2>
             <p className="text-white text-center statistic-bottom">
-              <Translate lang={lang} cs="firem proškoleno" sk="firiem preškolených"/>
+              <Translate
+                lang={lang}
+                cs="firem proškoleno"
+                sk="firiem preškolených"
+              />
             </p>
           </div>
           <div className="col-4">
             <h2 className="text-center text-white mb-0 text-huge">20+</h2>
             <p className="text-white text-center statistic-bottom">
-              <Translate lang={lang} cs="běhů školení" sk="behov školení"/>
+              <Translate lang={lang} cs="běhů školení" sk="behov školení" />
             </p>
           </div>
         </div>
@@ -236,7 +248,11 @@ const Page = props => {
         <MyClients
           noBorder={true}
           HeaderClients={
-            <Translate lang={lang} cs="Moji nejvýznamější klienti" sk="Moji nejvýznamější klienti" />
+            <Translate
+              lang={lang}
+              cs="Moji nejvýznamější klienti"
+              sk="Moji nejvýznamější klienti"
+            />
           }
         />
         {(() => {
