@@ -115,8 +115,6 @@
       germany
     en: |
       Ondrej was with us for three days to introduce us to Docker. Subsequently, we moved onto Kubernetes - from installation to application preview. The training fulfilled our expectations.
-    sk: |
-      Ondřej u nás strávil tři dny a během této doby nás uvedl do problematiky Dockeru. Následně jsme přešli ke Kubernetes, začali s instalací a došli až k provozování aplikací. Školení naplnilo naše očakávání.
   date:
     cs: 30. ledna 2018
 - id: sit
