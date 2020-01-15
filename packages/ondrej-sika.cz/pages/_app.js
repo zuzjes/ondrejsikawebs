@@ -1,6 +1,6 @@
 import App from "next/app";
 import site from "@app/ondrej-sika.cz/config";
-
+import OpenGraph from "@app/common/components/OpenGraph";
 import Layout from "@app/ondrej-sika.cz/layouts/Layout";
 
 // Imported CSS

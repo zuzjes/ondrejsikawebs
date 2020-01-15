@@ -6,6 +6,7 @@ import DevelopmentBar from "@app/common/components/DevelopmentBar";
 import Navbar from "@app/ondrej-sika.cz/components/Navbar";
 import Footer from "@app/ondrej-sika.cz/components/Footer";
 import BootstrapJS from "@app/common/components/BootstrapJS";
+import NextSeo from "@app/common/components/NextSeo";
 
 // Imported CSS
 import "@app/ondrej-sika.cz/css";
@@ -20,6 +21,22 @@ export default props => (
         rel="stylesheet"
       />
     </Head>
+    <NextSeo
+      title="IT &amp; DevOps školení, konzultace a workshopy"
+      description="Zlepšuji práci vývojářských týmu zaváděním efektivních procesů ve vývoji. Naučím Vás používat prověřené nástroje a technologie, které povedou k rychlejšímu vývoji a bezpečnějšímu provozu vašeho software."
+      canonicalUrl="https://ondrej-sika.cz/kontakt"
+      urlOP="/"
+      titleOP=""
+      descriptionOP=""
+      imageUrl=""
+      imageWidth="850"
+      imageHeight="650"
+      imageAlt="Photo of Ondrej Sika"
+      siteName="Ondrej sika"
+      handleTwitter=""
+      siteTwitter=""
+      cardType="summary_large_image"
+    />
     <DevelopmentBar />
     <Navbar
       NavName="Ondřej Šika"
